@@ -34,9 +34,20 @@ header {
   transition: all 0.4s;
 }
 
-header a .logo {
-  display: inline-block;
-  float: left;
+header a.logo {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+header a.logo span.dot{
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #A32237;
+  margin-left: 5px;
 }
 
 header nav {
@@ -720,7 +731,7 @@ header nav ul li a:focus {
 .personal-detail .deatil-year {
   background: #5a5a5a;
   color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 6px 12px;
   height: 36px;
   width: 100px;
