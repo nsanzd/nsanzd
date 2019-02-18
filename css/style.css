@@ -252,7 +252,8 @@ header nav ul li a:focus {
   margin: 0px 5px;
 }
 
-.hire-btn {
+.hire-btn,
+.service-btn {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -267,16 +268,19 @@ header nav ul li a:focus {
   font-weight: 600;
 }
 
-.hire-btn:hover {
+.hire-btn:hover,
+.service-btn:hover {
   color: #A32237;
 }
 
-.hire-btn:hover:before, .hire-btn:focus:before, .hire-btn:active:before {
+.hire-btn:hover:before, .hire-btn:focus:before, .hire-btn:active:before,
+.service-btn:hover:before, .service-btn:focus:before, .service-btn:active:before {
   left: 0;
   right: 0;
 }
 
-.hire-btn:before {
+.hire-btn:before,
+.service-btn:before {
   content: "";
   position: absolute;
   z-index: -1;
