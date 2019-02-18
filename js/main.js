@@ -391,12 +391,11 @@
             var top = themeWindow.scrollTop();
             var header = $("header");
             var headerText = $("header nav ul li a");
-            var logo = $(".logo img");
+            var logo = $(".logo");
             var scrollTopArea = $("#scroll-top-area");
-            var darkLogo = logo.data("dark");
             if (top < 150) {
                 scrollTopArea.css('display', 'none');
-                logo.attr("src", "images/logoWhite.png");
+                logo.css('color', '#fff');
                 headerText.css('color', '#fff');
                 header.css({
                     'background': 'transparent',
@@ -406,7 +405,7 @@
                 });
             } else if (top >= 150) {
                 scrollTopArea.css('display', 'block');
-                logo.attr("src", darkLogo);
+                logo.css('color', '#454545');
                 headerText.css('color', '#454545');
                 header.css({
                     'background': '#fff',
