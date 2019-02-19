@@ -5,6 +5,9 @@
  *-------------------------------------
  */
 @media screen and (max-width: 1024px) {
+  .welcome-area .image-bg {
+    background: url("../images/imageBg_responsive.jpg");
+  }
   /*--------------welcome-area----------------*/
   .welcome-overlay {
     display: none;
@@ -26,7 +29,7 @@
     margin: 0px 50px;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {  
   /*--------------welcome area----------------*/
   .welcome-text h1,
   .welcome-text #typed,
@@ -54,7 +57,7 @@
   }
   .slicknav_btn {
     margin-top: 24px;
-    background: #fff;
+    background: transparent;
     margin-right: 20px;
   }
   .slicknav_nav a {
@@ -86,7 +89,7 @@
     margin: 0px;
   }
   .slicknav_menu .slicknav_icon-bar {
-    background-color: #000;
+    background-color: #fff;
   }
   /*--------------about----------------*/
   .about .progressbar-area {
@@ -349,7 +352,7 @@
   }
   .slicknav_btn {
     margin-top: 20px;
-    background: #fff;
+    background: transparent;
     margin-right: 20px;
   }
   .slicknav_nav a {
@@ -381,7 +384,7 @@
     margin: 0px;
   }
   .slicknav_menu .slicknav_icon-bar {
-    background-color: #000;
+    background-color: #fff;
   }
   /*--------------about----------------*/
 
