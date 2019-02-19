@@ -103,6 +103,102 @@
                 offset: width3
             });
 
+            var width4 = $(".prog4").data("progress");
+            var progBar4 = $(".prog4");
+            skill.waypoint(function() {
+                progBar4.css({
+                    "width": width4,
+                    "transition": "2s ease-in"
+                });
+            }, {
+
+                offset: width4
+            });
+
+            var width5 = $(".prog5").data("progress");
+            var progBar5 = $(".prog5");
+            skill.waypoint(function() {
+                progBar5.css({
+                    "width": width5,
+                    "transition": "2s ease-in"
+                });
+            }, {
+
+                offset: width5
+            });
+
+            var width6 = $(".prog6").data("progress");
+            var progBar6 = $(".prog6");
+            skill.waypoint(function() {
+                progBar6.css({
+                    "width": width6,
+                    "transition": "2s ease-in"
+                });
+            }, {
+
+                offset: width6
+            });
+
+            var width7 = $(".prog7").data("progress");
+            var progBar7 = $(".prog7");
+            skill.waypoint(function() {
+                progBar7.css({
+                    "width": width7,
+                    "transition": "2s ease-in"
+                });
+            }, {
+
+                offset: width7
+            });
+
+            var width8 = $(".prog8").data("progress");
+            var progBar8 = $(".prog8");
+            skill.waypoint(function() {
+                progBar8.css({
+                    "width": width8,
+                    "transition": "2s ease-in"
+                });
+            }, {
+
+                offset: width8
+            });
+
+            var width9 = $(".prog9").data("progress");
+            var progBar9 = $(".prog9");
+            skill.waypoint(function() {
+                progBar9.css({
+                    "width": width9,
+                    "transition": "2s ease-in"
+                });
+            }, {
+
+                offset: width9
+            });
+
+            var width10 = $(".prog10").data("progress");
+            var progBar10 = $(".prog10");
+            skill.waypoint(function() {
+                progBar10.css({
+                    "width": width10,
+                    "transition": "2s ease-in"
+                });
+            }, {
+
+                offset: width10
+            });
+
+            var width11 = $(".prog11").data("progress");
+            var progBar11 = $(".prog11");
+            skill.waypoint(function() {
+                progBar11.css({
+                    "width": width11,
+                    "transition": "2s ease-in"
+                });
+            }, {
+
+                offset: width11
+            });
+
 
             /*
              * -----------------------------------------------------------------
@@ -134,7 +230,7 @@
              * -----------------------------------------------------------------
              */
 
-            var personal = $('#personal-detail .nav .nav-item');
+            var personal = $('#personal .nav .nav-item');
 
             personal.on("click", function(e) {
                 e.preventDefault();
@@ -272,7 +368,7 @@
             var testimonial = $("#client-testimonial #owl-demo-testimonial");
 
             testimonial.owlCarousel({
-                autoplay: true,
+                autoplay: false,
                 autoplayTimeout: 5000,
                 items: 2,
                 autoPlay: 6000,
@@ -321,7 +417,7 @@
             var serviceItem = $("#service #owl-demo-service");
 
             serviceItem.owlCarousel({
-                autoplay: true,
+                autoplay: false,
                 autoplayTimeout: 5000,
                 items: 3,
                 autoPlay: 6000,
@@ -393,6 +489,7 @@
             var headerText = $("header nav ul li a");
             var logo = $(".logo");
             var scrollTopArea = $("#scroll-top-area");
+            var hamburguer = $(".slicknav_icon-bar");
             if (top < 150) {
                 scrollTopArea.css('display', 'none');
                 logo.css('color', '#fff');
@@ -403,6 +500,7 @@
                     'height': '100px',
                     'line-height': '100px'
                 });
+                hamburguer.css('background', '#fff');
             } else if (top >= 150) {
                 scrollTopArea.css('display', 'block');
                 logo.css('color', '#454545');
@@ -413,6 +511,7 @@
                     'height': '80px',
                     'line-height': '80px'
                 });
+                hamburguer.css('background', '#A32237');
             }
 
         });

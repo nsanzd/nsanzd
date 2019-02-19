@@ -836,7 +836,9 @@ header nav ul li a:focus {
 }
 
 /*-------------------testimonial section---------------*/
-
+.client-testimonial {
+  padding-top: 0px;
+}
 .client-testimonial .client-area {
   padding-top: 28px;
 }
