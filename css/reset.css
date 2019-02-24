@@ -165,6 +165,56 @@ a:focus {
   color: #fff;
 }
 
+.btn-style4 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+
+  padding: 8px 22px;
+  background-color: #fff;
+  color: #000;
+  font-weight: 600;
+}
+
+.btn-style4 i {
+  margin-right: 5px;
+}
+
+.btn-style4:hover {
+  color: #A32237;
+}
+
+.btn-style4:hover:before, .btn-style4:focus:before, .btn-style4:active:before {
+  left: 0;
+  right: 0;
+}
+
+.btn-style4:before,
+.btn-style4:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: #A32237;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.link:hover {
+  color: #A32237;
+}
+
 .preloader {
   background: #fff;
   bottom: 0;
