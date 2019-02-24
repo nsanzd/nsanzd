@@ -230,7 +230,7 @@
              * -----------------------------------------------------------------
              */
 
-            var personal = $('#personal .nav .nav-item');
+            var personal = $('#personal-detail .nav .nav-item');
 
             personal.on("click", function(e) {
                 e.preventDefault();
