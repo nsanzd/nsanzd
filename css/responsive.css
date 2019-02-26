@@ -93,6 +93,7 @@
   }
   /*--------------about----------------*/
   .about .progressbar-area {
+    margin-top: 70px;
     margin-bottom: 70px;
   }
   .about-img {
