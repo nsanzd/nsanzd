@@ -199,6 +199,30 @@
                 offset: width11
             });
 
+            var width12 = $(".prog12").data("progress");
+            var progBar12 = $(".prog12");
+            skill.waypoint(function() {
+                progBar12.css({
+                    "width": width12,
+                    "transition": "2s ease-in"
+                });
+            }, {
+
+                offset: width12
+            });
+
+            var width13 = $(".prog13").data("progress");
+            var progBar13 = $(".prog13");
+            skill.waypoint(function() {
+                progBar13.css({
+                    "width": width13,
+                    "transition": "2s ease-in"
+                });
+            }, {
+
+                offset: width13
+            });
+
 
             /*
              * -----------------------------------------------------------------
