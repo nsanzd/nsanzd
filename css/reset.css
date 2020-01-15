@@ -13,9 +13,9 @@
 body {
   height: 100%;
   line-height: 26px;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
   color: #383838;
   letter-spacing: 0.8px;
 }
@@ -75,7 +75,9 @@ h6 {
 }
 
 .section-title {
+  font-family: "Amatic SC", cursive;
   font-size: 40px;
+  color: #f34f68;
   margin: 0px 20px;
   margin-bottom: 10px;
   text-align: center;
@@ -163,56 +165,6 @@ a:focus {
 .btn-style3:focus {
   background-color: #4b4b4b;
   color: #fff;
-}
-
-.btn-style4 {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  overflow: hidden;
-
-  padding: 8px 22px;
-  background-color: #fff;
-  color: #000;
-  font-weight: 600;
-}
-
-.btn-style4 i {
-  margin-right: 5px;
-}
-
-.btn-style4:hover {
-  color: #A32237;
-}
-
-.btn-style4:hover:before, .btn-style4:focus:before, .btn-style4:active:before {
-  left: 0;
-  right: 0;
-}
-
-.btn-style4:before,
-.btn-style4:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 51%;
-  right: 51%;
-  bottom: 0;
-  background: #A32237;
-  height: 4px;
-  -webkit-transition-property: left, right;
-  transition-property: left, right;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-
-.link:hover {
-  color: #A32237;
 }
 
 .preloader {

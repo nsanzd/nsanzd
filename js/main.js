@@ -103,126 +103,6 @@
                 offset: width3
             });
 
-            var width4 = $(".prog4").data("progress");
-            var progBar4 = $(".prog4");
-            skill.waypoint(function() {
-                progBar4.css({
-                    "width": width4,
-                    "transition": "2s ease-in"
-                });
-            }, {
-
-                offset: width4
-            });
-
-            var width5 = $(".prog5").data("progress");
-            var progBar5 = $(".prog5");
-            skill.waypoint(function() {
-                progBar5.css({
-                    "width": width5,
-                    "transition": "2s ease-in"
-                });
-            }, {
-
-                offset: width5
-            });
-
-            var width6 = $(".prog6").data("progress");
-            var progBar6 = $(".prog6");
-            skill.waypoint(function() {
-                progBar6.css({
-                    "width": width6,
-                    "transition": "2s ease-in"
-                });
-            }, {
-
-                offset: width6
-            });
-
-            var width7 = $(".prog7").data("progress");
-            var progBar7 = $(".prog7");
-            skill.waypoint(function() {
-                progBar7.css({
-                    "width": width7,
-                    "transition": "2s ease-in"
-                });
-            }, {
-
-                offset: width7
-            });
-
-            var width8 = $(".prog8").data("progress");
-            var progBar8 = $(".prog8");
-            skill.waypoint(function() {
-                progBar8.css({
-                    "width": width8,
-                    "transition": "2s ease-in"
-                });
-            }, {
-
-                offset: width8
-            });
-
-            var width9 = $(".prog9").data("progress");
-            var progBar9 = $(".prog9");
-            skill.waypoint(function() {
-                progBar9.css({
-                    "width": width9,
-                    "transition": "2s ease-in"
-                });
-            }, {
-
-                offset: width9
-            });
-
-            var width10 = $(".prog10").data("progress");
-            var progBar10 = $(".prog10");
-            skill.waypoint(function() {
-                progBar10.css({
-                    "width": width10,
-                    "transition": "2s ease-in"
-                });
-            }, {
-
-                offset: width10
-            });
-
-            var width11 = $(".prog11").data("progress");
-            var progBar11 = $(".prog11");
-            skill.waypoint(function() {
-                progBar11.css({
-                    "width": width11,
-                    "transition": "2s ease-in"
-                });
-            }, {
-
-                offset: width11
-            });
-
-            var width12 = $(".prog12").data("progress");
-            var progBar12 = $(".prog12");
-            skill.waypoint(function() {
-                progBar12.css({
-                    "width": width12,
-                    "transition": "2s ease-in"
-                });
-            }, {
-
-                offset: width12
-            });
-
-            var width13 = $(".prog13").data("progress");
-            var progBar13 = $(".prog13");
-            skill.waypoint(function() {
-                progBar13.css({
-                    "width": width13,
-                    "transition": "2s ease-in"
-                });
-            }, {
-
-                offset: width13
-            });
-
 
             /*
              * -----------------------------------------------------------------
@@ -392,7 +272,7 @@
             var testimonial = $("#client-testimonial #owl-demo-testimonial");
 
             testimonial.owlCarousel({
-                autoplay: false,
+                autoplay: true,
                 autoplayTimeout: 5000,
                 items: 2,
                 autoPlay: 6000,
@@ -441,7 +321,7 @@
             var serviceItem = $("#service #owl-demo-service");
 
             serviceItem.owlCarousel({
-                autoplay: false,
+                autoplay: true,
                 autoplayTimeout: 5000,
                 items: 3,
                 autoPlay: 6000,
@@ -511,12 +391,12 @@
             var top = themeWindow.scrollTop();
             var header = $("header");
             var headerText = $("header nav ul li a");
-            var logo = $(".logo");
+            var logo = $(".logo img");
             var scrollTopArea = $("#scroll-top-area");
-            var hamburguer = $(".slicknav_icon-bar");
+            var darkLogo = logo.data("dark");
             if (top < 150) {
                 scrollTopArea.css('display', 'none');
-                logo.css('color', '#fff');
+                logo.attr("src", "images/logoWhite.png");
                 headerText.css('color', '#fff');
                 header.css({
                     'background': 'transparent',
@@ -524,10 +404,9 @@
                     'height': '100px',
                     'line-height': '100px'
                 });
-                hamburguer.css('background', '#fff');
             } else if (top >= 150) {
                 scrollTopArea.css('display', 'block');
-                logo.css('color', '#454545');
+                logo.attr("src", darkLogo);
                 headerText.css('color', '#454545');
                 header.css({
                     'background': '#fff',
@@ -535,7 +414,6 @@
                     'height': '80px',
                     'line-height': '80px'
                 });
-                hamburguer.css('background', '#A32237');
             }
 
         });
