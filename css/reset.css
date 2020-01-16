@@ -98,18 +98,18 @@ h6 {
 }
 
 a {
-  color: #000;
+  color: #4cbf31;
 }
 
 a:hover {
   text-decoration: none;
-  color: #000;
+  color: #9be18b;
 }
 
 a:focus {
   text-decoration: none;
   outline: 0;
-  color: #000;
+  color: #9be18b;
 }
 
 .padding-style1 {
@@ -126,30 +126,36 @@ a:focus {
 
 .btn-style1 {
   padding: 10px 22px;
-  background-color: #000;
+  font-family: "Amatic SC", cursive;
+  background-color: #004351;
   color: #fff;
   display: inline-block;
   transition: all 0.5s;
   border: none;
   font-weight: 500;
+  font-size: 24px;
 }
 
 .btn-style1:hover,.btn-style1:focus {
-  background-color: #adadad;
+  background-color: #00333e;
+  color: #fff;
 }
 
 .btn-style2 {
   padding: 7px 22px;
+  font-family: "Amatic SC", cursive;
   color: #fff;
   display: inline-block;
   transition: all 0.5s;
-  font-weight: 600;
-  background: #4b4b4b;
+  font-weight: 500;
+  background: #f34f68;
+  font-size: 24px;
 }
 
 .btn-style2:hover,
 .btn-style2:focus {
-  background-color: #a2a2a2;
+  background-color: #f56a7f;
+  color: #fff;
 }
 
 .btn-style3 {
@@ -206,14 +212,14 @@ a:focus {
 
 #scroll-top-area span {
   font-weight: 800;
-  color: #808080;
+  color: #9be18b;
 }
 
 #scroll-top-area i {
   text-align: center;
   line-height: 38px;
   margin-left: 6px;
-  color: #808080;
+  color: #9be18b;
 }
 
 .display-table {
