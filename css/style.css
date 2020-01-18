@@ -214,7 +214,6 @@ header nav ul li a:focus {
 .welcome-text p {
   color: #fff;
   max-width: 500px;
-  margin-bottom: 35px;
 }
 .welcome-text #typed span {
   font-weight: 700;
@@ -222,7 +221,7 @@ header nav ul li a:focus {
 
 .welcome-area .type-wrap {
   margin-bottom: 35px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .welcome-area #typed {
