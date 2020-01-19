@@ -92,14 +92,14 @@
   .about .progressbar-area {
     margin-bottom: 70px;
   }
-  .about-img {
+/*   .about-img {
     height: 100%;
     width: 100%;
     z-index: 0;
     position: relative;
     max-width: 60%;
   }
-
+ */
   /*--------------funfact----------------*/
   .fun-fact .count {
     margin-bottom: 20px;
@@ -205,13 +205,13 @@
   .about .skills {
     max-width: 90%;
   }
-  .about-img {
+  /* .about-img {
     height: 100%;
     width: 100%;
     z-index: 0;
     position: relative;
     max-width: 100%;
-  }
+  } */
   .newsletter {
   margin: 0px 20px;
 }
@@ -230,7 +230,6 @@
   /*--------------service----------------*/
   .service .item {
     margin-left: 10px;
-    background: #fff;
     padding: 20px;
     margin-right: 10px;
   }
@@ -252,9 +251,6 @@
     margin: 0px 20px;
   }
 
-  .service-item {
-    background: #fff;
-  }
   .detail-overlay {
     display: none;
   }
@@ -349,13 +345,13 @@
   }
   .slicknav_btn {
     margin-top: 20px;
-    background: #fff;
+    background: transparent;
     margin-right: 20px;
   }
   .slicknav_nav a {
-    background: #e7e7e7;
+    background: #cfffb6;
     height: 47px;
-    color: #000;
+    color: #004351;
     width: 200px;
     padding-top: 12px;
     text-align: center;
@@ -381,9 +377,13 @@
     margin: 0px;
   }
   .slicknav_menu .slicknav_icon-bar {
-    background-color: #000;
+    background-color: #f34f68;
+    box-shadow: 0 1px 0 #fddee3;
   }
   /*--------------about----------------*/
+  .about-text {
+    padding-right: 0 !important;
+  }
 
   /*--------------portfolio----------------*/
   .portfolio .magnify-icon p {
@@ -428,7 +428,7 @@
   /*--------------about----------------*/
 
   .about .skills {
-    max-width: 90%;
+    max-width: 100%;
   }
 }
 
@@ -458,7 +458,6 @@
   /*--------------service----------------*/
   .service .item {
     margin-left: 0px;
-    background: #fff;
     padding: 20px;
     margin-right: 0px;
   }
@@ -472,9 +471,15 @@
   .welcome-area #typed {
     line-height: 48px;
   }
+  .welcome-text h1, .welcome-text #typed, .welcome-text .typed-cursor {
+    font-size: 46px;
+  }
   .welcome-text a {
     margin: 0px 5px;
     margin-bottom: 20px;
+  }
+  .welcome-area .image-bg {
+    background-position-x: -680px;
   }
   /*--------------portfolio----------------*/
   .magnify-icon p {
@@ -487,6 +492,7 @@
 }
 @media screen and (max-width: 385px) {
   /*--------------personal-detail----------------*/
+  .about .nav-tabs .nav-link,
   .personal-detail .nav-tabs .nav-link {
     border: 0px;
     font-size: 14px;
@@ -496,6 +502,7 @@
 
 @media screen and (max-width: 338px) {
   /*--------------personal-detail----------------*/
+  .about nav,
   .personal-detail nav {
     padding-left: 0px;
     padding-bottom: 40px;

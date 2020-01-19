@@ -152,7 +152,7 @@ header nav ul li a:focus {
 .welcome-overlay {
   width: 45%;
   height: 100%;
-  background: rgba(243, 79, 104, 1);
+  background: rgba(243, 79, 104, 0.85);
   position: absolute;
   top: 0;
   left: 0;
@@ -164,7 +164,7 @@ header nav ul li a:focus {
   height: 0;
   border-style: solid;
   border-width: 100vh 0 0 40vh;
-  border-color: transparent transparent transparent rgba(243, 79, 104, 1);
+  border-color: transparent transparent transparent rgba(243, 79, 104, 0.85);
   position: absolute;
   left: 100%;
   z-index: 3;
@@ -311,6 +311,9 @@ header nav ul li a:focus {
   max-width: 80%;
 }
 
+.about .progressbar-area {
+  margin-top: 20px;
+}
 .about .skills-content .progressbar-area h6 {
   margin-bottom: 21px;
   font-weight: 500;
@@ -803,9 +806,10 @@ header nav ul li a:focus {
   transition: all 0.5s;
 }
 .client-testimonial .owl-theme .owl-nav [class*="owl-"] {
-  color: #fff;
+  font-size: 32px;
+  color: #f34f68;
   padding: 4px 11px;
-  background: #000;
+  background: transparent;
   border-radius: 0px;
 }
 
